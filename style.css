@@ -50,7 +50,7 @@ main{
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    padding: 100px;
+    padding: 50px 100px;
     gap: 10px;
 }
 .box-left h1{
@@ -149,7 +149,6 @@ main{
     .box-left p {
         max-width: none;
     }
-   
 }
 @media screen and (max-width: 780px){
     .nav-links{
@@ -176,6 +175,9 @@ main{
     }
     .box-left p {
         margin: 25px 0;
+    }
+    .info-design h2{
+        margin-top: 5px;
     }
 }
 @media screen and (max-width: 500px){
@@ -204,10 +206,7 @@ main{
         border-radius: 50%;
     }
     .info-design {
-        padding: 10px;
+        padding: 5px;
         width: 70%;
     }
-   
-    
-
 }
